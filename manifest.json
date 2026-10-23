@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "xmanig.dictations",
+  "name": "Dictation Inbox",
+  "version": "1.0.0",
+  "author": "mgl",
+  "license": "MIT",
+  "description": "Local text-only dictation history, collections, selected-entry summaries and Markdown export.",
+  "kinds": ["bar-widget"],
+  "activation": "on-demand",
+  "entryPoints": {"barWidget": "Panel.qml"},
+  "barWidget": {
+    "displayName": "Dictation Inbox",
+    "description": "Recent dictations and searchable history. Capture stays local; summaries run only when explicitly requested.",
+    "category": "AI",
+    "aliases": ["dictations", "dictation-inbox"],
+    "allowMultiple": false,
+    "defaults": {},
+    "schema": []
+  }
+}
